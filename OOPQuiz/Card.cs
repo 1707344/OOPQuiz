@@ -53,9 +53,6 @@ namespace OOPQuiz
                 Card card = cards[i];
                 Card randomCard = cards[randomCardIndex];
 
-                cards[i] = null;
-                cards[randomCardIndex] = null;
-
                 cards[i] = randomCard;
                 cards[randomCardIndex] = card;
             }
